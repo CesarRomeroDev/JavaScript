@@ -10,3 +10,4 @@ console.log( resultado );
 
 resultado = (4 + 5) * 6 / 3;
 console.log( resultado );
+console.log(hola)
