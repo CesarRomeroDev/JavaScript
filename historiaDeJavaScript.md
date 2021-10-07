@@ -1,4 +1,4 @@
-##Historia JavaScript
+#Historia JavaScript
 La historia del lenguaje JavaScript empieza durante la década de los años 90, se vivió un verdadero boom tecnológico, el Internet cobró un protagonismo mayor a nivel mundial y la humanidad inició formalmente su relación con las computadoras. Comenzaron a desarrollarse las primeras aplicaciones web y las páginas web empezaron a incorporar elementos adicionales a su arquitectura, como por ejemplo, formularios complejos.
 
 El surgimiento de aplicaciones web más sofisticadas acompañadas de una velocidad para navegar bastante lenta (28.8 kbps.) originó la necesidad de concebir un lenguaje de programación que se ejecutara en el mismo navegador, con el objetivo de optimizar el tiempo de navegación de los usuarios; por ejemplo, si un usuario ingresaba de forma incorrecta su información en un formulario, no tendría que esperar mucho tiempo para detectar y corregir los errores.
