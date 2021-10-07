@@ -1,5 +1,6 @@
 # JavaScript
 Este curso es para poder fortalecer mis conocimientos en JavaScript
+<h4>inicio 04/10/2021</h4>
 * Seccion1
          *Terminada
 * Seccion2
