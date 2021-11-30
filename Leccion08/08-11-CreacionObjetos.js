@@ -14,7 +14,7 @@ let madre = new Persona('Diana', 'Letepichia', 'dina@hotmail.com')
 console.log(madre.nombreCompleto());
 
 let miObjeto = new Object(); //opcion mas formal para hacer un objeto
-let miObjeto2 = {};  //opcion mas breve para hacer un objeto
+let miObjeto2 = {};  //opcion mas breve para hacer un objeto es lo mas comun
 
 let miCadena1 = new String('hola');  //clase de tipo string funcion contructor(opcion mas formal para hacer una cadena de string)
 let miCadena2 = 'hola'; //cadena de string lo recomendable es usar esta sintaxis 
