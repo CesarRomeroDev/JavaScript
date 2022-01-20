@@ -19,6 +19,8 @@ Este curso es para poder fortalecer mis conocimientos en JavaScript
 * Seccion8
          *terminada 30/11/2021
 * Seccion9
-         *terminada 20/01/2022   
+         *terminada 20/01/2022
+* Seccion10
+         *terminada 20/01/2022
          
 ![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png)
