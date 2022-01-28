@@ -29,8 +29,3 @@ let gerente1 = new Gerente('Julio', 23129, 'Ingeniría');
 
 imprimir(empleado1);
 imprimir(gerente1);
-let empleado1 = new Empleado('Pepe', 13424);
-console.log(empleado1.obtenerDetalles())
-
-let gerente1 = new Gerente('Julio', 23129, 'Ingeniría');
-console.log(gerente1.obtenerDetalles());
