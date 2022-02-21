@@ -33,7 +33,7 @@ class Persona { //clase
          */
         return this.nombreCompleto();
     }
-    static saludar() {  //metodo static que se asocian a nuestra clase 
+    static saludar() {  //metodo static que se asocian a nuestra clase y no con los objetos de esta clase
         console.log('Saludos desde metodo Static clase padre');
     }
     static saludar2(persona) {
@@ -69,7 +69,7 @@ console.log(empleado1);
 console.log(empleado1.nombreCompleto());
 console.log(empleado1.toString());
 
-//persona1.saludar();  no es posible llamar un metodo Static desde un objeto
+//persona1.saludar();  //no es posible llamar un metodo Static desde un objeto
 Persona.saludar(); //solo podemos llamar los metodos static desde las clases, ya que el metodo static se asocia
 //con una clase
 Persona.saludar2(persona1);

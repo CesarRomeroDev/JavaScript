@@ -38,7 +38,7 @@ class Orden {  //no existe erencia entre producto ni orden solo de agregacion.
     constructor() {
         this._idOrdenes = ++Orden.contadorOrden;
         this._productos = [];
-        this._contadorProductosAgregados = 0;
+        //this._contadorProductosAgregados = 0;
     }
     get idOrdenes() {
         return this._idOrdenes;
