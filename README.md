@@ -40,5 +40,7 @@ Este curso es para poder fortalecer mis conocimientos en JavaScript
          *Terminada 28/01/2022
 * Prueba de git en el inicio de sesion
 * Segunda Prueba en el inicio de sesion
+* SECCION18
+         * haciendo nueva rama
          
 ![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png)

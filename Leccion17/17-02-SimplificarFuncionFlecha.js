@@ -32,5 +32,9 @@ miFuncionParametros('soy una funcion con parametros');
 /**
  * Funcion flecha con varios parametros
  */
-const miFuncionVariosParametros = (nm1, nme2) => `Suma: ${nm1}${nme2}`;
-console.log(miFuncionVariosParametros(10, 4));
+const miFuncionVariosParametros = (op1, op2) => {
+
+    let resultado = op1 + op2;
+    return `Resultado: ${resultado}`;
+}
+console.log(miFuncionVariosParametros(5, 7));

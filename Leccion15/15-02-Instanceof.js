@@ -18,13 +18,23 @@ class Gerente extends Empleado {
     }
 }
 
-/**
- * se le llama polimorfismo cuando se puede ejecutar dos metos
- * en una sola linea , los metodos son de la clase padre y clase hija 
- * @param {recibe obtenerDetalles de clase padre y clase hija} tipo 
- */
-function imprimir(tipo) {  // el tipo puede obtener los objetos como empleado1 y gerente1. tipo generica
+
+function determinarTipo(tipo) {
     console.log(tipo.obtenerDetalles());
+    /**
+     * es una instancia de tipo:
+     */
+    if (tipo instanceof Gerente) {
+        console.log('Es un objeto de tipo HIJO');
+        console.log(tipo.departamento);  //Podemos ingresar a los atributos de la clase hija
+    }
+    else if (tipo instanceof Empleado) {
+        console.log('Es un objeto de tipo PADRE');
+        console.log(tipo.departamento) //no podemos ingresar a los atributos  de la clase hija
+    }
+    // else if(tipo instanceof Object){
+    //     console.log('Es un tipo Object')
+    // }
 }
 
 let empleado1 = new Empleado('Pepe', 13424);
@@ -32,5 +42,5 @@ let empleado1 = new Empleado('Pepe', 13424);
 
 let gerente1 = new Gerente('Julio', 23129, 'Ingeniría');
 
-imprimir(empleado1);
-imprimir(gerente1);
+determinarTipo(empleado1);
+determinarTipo(gerente1);
