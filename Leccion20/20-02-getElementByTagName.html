@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con JavaScript</title>
+</head>
+
+<body>
+    <h1 id="cabecero">
+        Ejemplo DOM con JavaScript
+    </h1>
+    <p>Saludos</p>
+    <p>Otro Parrafo</p>
+    <script>
+        /**
+         * Para seleccionar un tag o etiqueta de html getElementByTagName()
+         */
+        let parrafos = document.getElementsByTagName('p'); //vamos a seleccionar los elementos de tipo parrafo
+        console.log(`No. parrafos: ${parrafos.length}`);
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(`${i} - ${parrafos[i].innerHTML}`)
+        }
+    </script>
+</body>
+
+</html>
