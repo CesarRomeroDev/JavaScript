@@ -47,6 +47,12 @@ Este curso es para poder fortalecer mis conocimientos en JavaScript
 * Sección20
          *Terminada 12/03/2022
 * Sección21
-         *Terminada 13/03/2022
+         *Terminada 13/05/2022
+* Sección22
+         *Terminada 16/05/2022
+* Sección23
+         *Terminada 16/05/2022
+* Sección24
+         *Terminada 16/05/2022
          
 ![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png)
