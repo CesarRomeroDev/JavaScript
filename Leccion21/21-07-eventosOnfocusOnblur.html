@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--onmausedown: dar clic en texto para cambio de color-->
+    <!--onmauseup: soltar clic para cambiar color-->     
+    <h1 id="titulo">
+        Manejo de Eventos con JS
+    </h1>
+    <br>
+    <!--onfocus: para agregar un estilo en el input text-->
+    <!--onblur: para regresar a un stilo al salir del input text-->
+    nombre: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+    <br>
+    Apellido: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+   
+
+    <script>
+        function cambiar(elementInput){
+            elementInput.style.background = 'yellow';
+        }
+        function regresar(elementInput){
+            elementInput.style.background = 'white';
+        }
+    </script>
+</body>
+</html>

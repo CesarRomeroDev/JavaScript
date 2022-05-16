@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--onmauseover: cambiar el estilo al sobreponer el mause en el texto-->
+    <!--onmauseout: cambiar el estilo anterirmente por over a otro estilo-->     
+    <h1 id="titulo" onmouseover="rojo(this)" onmouseout="azul(this)">
+        Manejo de Eventos con JS
+    </h1>
+    <br>
+   
+
+    <script>
+        function rojo(titulo){
+            titulo.style.color = 'red';
+        }
+        function azul(titulo){
+            titulo.style.color = 'blue';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--onmausedown: dar clic en texto para cambio de color-->
+    <!--onmauseup: soltar clic para cambiar color-->     
+    <h1 id="titulo" onmousedown="rojo(this)" onmouseup="azul(this)" onclick="verde(this)">
+        Manejo de Eventos con JS
+    </h1>
+    <br>
+   
+
+    <script>
+        function rojo(titulo){
+            titulo.style.color = 'red';
+            console.log('color rojo');
+        }
+        function azul(titulo){
+            titulo.style.color = 'blue';
+            console.log('color azul');
+        }
+        function verde(){
+            titulo.style.color = 'green';
+            console.log('color verde');
+        }
+    </script>
+</body>
+</html>

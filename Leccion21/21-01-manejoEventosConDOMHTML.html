@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--this.innerHTML: puede acceder a las propiedades en html y modificarlas
+        es una forma de hacerlo pero no es buena practica, el siguiente ejemplo es el mismo 
+        preo creando una funcion.-->
+    <!-- <h1 onclick="this.innerHTML = 'Nuevo Titulo' ">Manejo de DOM con JS</h1> -->
+    <h1 onclick="cambiarTexto(this)">Manejo de DOM con JS</h1>
+    
+
+    <script>
+        function cambiarTexto(titulo){
+            console.log(titulo);
+            console.log(titulo.innerHTML);
+            titulo.innerHTML = 'Cambiamos el titulo';
+        }
+    </script>
+</body>
+</html>

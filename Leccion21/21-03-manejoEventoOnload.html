@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="entrar()">        <!--al cargar la pagina manda el alert-->
+    <h1>Manejo de Eventos con JS</h1>
+    <div id="mostrar"></div>
+
+    <script>
+        function entrar(){
+            alert('Entrando a la pagina');      //mensaje de alerta al inicio de la pagina
+            let texto = '';
+            if(navigator.cookieEnabled){        //navigator.cookieEnabled : para saber de la cookies 
+                texto = 'las cookies estan habilitadas';
+            }else{
+                texto = 'cookies estan inhabilitadas';
+            }
+            document.getElementById('mostrar').innerHTML = texto;
+        }
+    </script>
+</body>
+</html>
